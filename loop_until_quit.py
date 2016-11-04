@@ -1,3 +1,8 @@
+"""
+This program gets a user's name. The user can then enter a new name, or have the existing name printed in
+upper/lowercase. A nice happy message is displayed on quit.
+"""
+
 name = str(input("Enter your name: "))
 menu = "(G)et new name" \
        "\n(U)ppercase" \
